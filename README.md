@@ -95,7 +95,7 @@ After compiling or locating the jar, you can run the command:
 
 java -cp ./SetSolver-0.0.1-SNAPSHOT-jar-with-dependencies.jar lwinikor.set.solver.SetSolverWithInputDeck -d ./inputFile.json -n 3
 
-If you specify -v, in addition to the found sets, a couple of lines listing the number of sets found and the time taken will be printed to stdout.
+If you specify -v, in addition to printing the sets, a couple of lines listing the number of sets found and the time taken will be printed to stdout.
 
 If you specify -n to an invalid value, it will default to 3.
 
@@ -137,7 +137,7 @@ If numCardsToPlay is specified to a number larger than the number of possible ca
 Various input file examples are available at ../[repoLocation]/SetSolver/src/main/resources/inputDecks/setGameConfigs
 
 ####Output
-This solver takes in the configuration file and will generate a full deck (all possible cards) based on the dimensionValues specified.  It will then draw numCardsToPlay random cards from that deck, and print those cards out to stdOut.  It will then find all sets of size numCardsPerSet, and print those sets out to stdOut.
+This solver takes in the configuration file and will generate a full deck (all possible cards) based on the dimensionValues specified.  It will then draw numCardsToPlay random cards from that deck, and print those cards out to stdout.  It will then find all sets of size numCardsPerSet, and print those sets out to stdout.
 
 ####Command Line Options
 Usage for the program is as follows:
