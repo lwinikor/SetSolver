@@ -50,7 +50,7 @@ If the input file is found to be invalid, it will be reported by the program. Li
 * not all cards specified in the file contain the same number of dimensions. (Eg. if one card is missing a dimension named "color", while others do specify this dimension, the entire input is considered invalid)
 * dimension or dimensionValues are empty strings
 * no dimensions or dimensionValues specified for a given card
-* no single card contains multiple entries for the same dimension
+* one or more individual cards contains multiple entries for the same dimension
 
 All dimensions and dimensionValues are case sensitive, so "color" and "Color" would be considered different dimensions.
 
