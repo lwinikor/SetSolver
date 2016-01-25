@@ -156,6 +156,6 @@ Given the potential variability of the inputs and rules of the game, the solutio
 
 For the standard full Set deck, there are 81 cards, and 3 cards make up a set, so the number of combinations, 81 C 3 = 85320.<br>
 Increasing the number of cards that make up a set to 4, number of combinations increases by 2 orders of magnitude, 81 C 4 = 1663740.<br>
-Increasing the number of cards that make up a set to 6, number of combinations again increses by 2 orders of magnitude, 81 C 6 = 324540216.<br>
+Increasing the number of cards that make up a set to 6, number of combinations again increases by 2 orders of magnitude, 81 C 6 = 324540216.<br>
 
 The runtime is tied to the number of combinations.  Running with any configurations that could be found in a real game of Set, or an equivalent order of magnitude of combinations, should return instantly.  When dealing with configurations that greatly increase number of combinations, results may take some time to return. (Timed roughly .5 seconds per 1 million combinations on a macbook pro).  
