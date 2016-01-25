@@ -88,7 +88,7 @@ usage: SetSolverWithInputDeck <br>
 
 After compiling or locating the jar, you can run the command:
 
-java -cp ./<jarLocation>/SetSolver-0.0.1-SNAPSHOT-jar-with-dependencies.jar lwinikor.set.solver.SetSolverWithInputDeck -d ./inputFile.json -n 3
+java -cp ./SetSolver-0.0.1-SNAPSHOT-jar-with-dependencies.jar lwinikor.set.solver.SetSolverWithInputDeck -d ./inputFile.json -n 3
 
 If you specify -v, in addition to the found sets, a couple of lines listing the number of sets found and the time taken will be printed to stdout.
 
@@ -141,10 +141,10 @@ usage: SetSolverWithConfig
 
 After compiling or locating the jar, you can run the command:
 
-java -cp ./<jarLocation>/SetSolver-0.0.1-SNAPSHOT-jar-with-dependencies.jar lwinikor.set.solver.SetSolverWithInputDeck -c ./inputConfigFile.json
+java -cp ./SetSolver-0.0.1-SNAPSHOT-jar-with-dependencies.jar lwinikor.set.solver.SetSolverWithInputDeck -c ./inputConfigFile.json
 
 ###Unit Tests
-Various JUnit tests that exercise validity and functionality are available in ../<repoLocation>/SetSolver/src/test/java/lwinikor/set
+Various JUnit tests that exercise validity and functionality are available in ../[repoLocation]/SetSolver/src/test/java/lwinikor/set
 
 ###Runtime
 Given the potential variability of the inputs and rules of the game, the solution checks all combinations of size n (n being the configured number of cards that make up a set) from the input deck.
