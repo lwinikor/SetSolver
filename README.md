@@ -146,7 +146,7 @@ usage: SetSolverWithConfig
 
 After compiling or locating the jar, you can run the command:
 
-java -cp ./SetSolver-0.0.1-SNAPSHOT-jar-with-dependencies.jar lwinikor.set.solver.SetSolverWithInputDeck -c ./inputConfigFile.json
+java -cp ./SetSolver-0.0.1-SNAPSHOT-jar-with-dependencies.jar lwinikor.set.solver.SetSolverWithConfig -c ./inputConfigFile.json
 
 ###Unit Tests
 Various JUnit tests that exercise validity and functionality are available in ../[repoLocation]/SetSolver/src/test/java/lwinikor/set
