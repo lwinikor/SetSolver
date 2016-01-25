@@ -39,13 +39,18 @@ An example of the contents of an expected input file is:
 ]
 ```
 
-In this case, the dimensions are color, number, shading, and shape, and for each card, those dimensions are mapped to various dimensionValues.
+In this case, the dimensions are color, number, shading, and shape, and for each card, those dimensions are mapped to various dimensionValues. 
+
+The number of dimensions per card, the naming of the dimensions, and the possible dimension values can be set to any string values.
 
 If the input file is found to be invalid, it will be reported by the program. Likely reasons are:
 
 * the file does not exist
 * the file does not contain valid json, and cannot be parsed
 * not all cards specified in the file contain the same number of dimensions. (Eg. if one card is missing a dimension named "color", while others do specify this dimension, the entire input is considered invalid)
+* dimension or dimensionValues are empty strings
+* no dimensions or dimensionValues specified for a given card
+* no single card contains multiple entries for the same dimension
 
 All dimensions and dimensionValues are case sensitive, so "color" and "Color" would be considered different dimensions.
 

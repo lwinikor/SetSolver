@@ -1,0 +1,11 @@
+{
+	"dimensionValues": {
+		"backgroundColor": ["black", "white", "grey", "yellow"],
+		"color": ["red", "green", "purple", "orange"],
+		"shape": ["diamond", "oval", "squiggle", "star"],
+		"shading": ["solid", "striped", "outlined", "polka dot"],
+		"number": ["1", "2", "3", "4"]
+	},
+	"numCardsPerSet" : 3,
+	"numCardsToPlay" :  35
+}

@@ -1,0 +1,14 @@
+[
+{"shading":"solid","number":"3","shape":"diamond","color":"green"},
+{"shading":"solid","number":"2","shape":"squiggle","color":"red"},
+{"shading":"outlined","number":"1","shape":"squiggle","color":"green"},
+{"shading":"outlined","number":"2","shape":"diamond","color":"purple"},
+{"shading":"solid","number":"3","shape":"diamond","color":"red"},
+{"shading":"outlined","number":"1","shape":"diamond","color":"purple"},
+{"shading":"striped","number":"1","shape":"squiggle","color":"purple"},
+{"shading":"striped","number":"1","shape":"oval","color":"red"},
+{"shading":"outlined","number":"3","shape":"oval","color":"red"},
+{"shading":"solid","number":"2","shape":"squiggle","color":"green"},
+{"shading":"striped","number":"3","shape":"oval","color":"green"},
+{"shading":"solid","number":"3","shape":"oval","color":"purple"}
+]

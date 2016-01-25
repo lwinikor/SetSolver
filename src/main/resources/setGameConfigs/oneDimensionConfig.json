@@ -1,0 +1,7 @@
+{
+	"dimensionValues": {
+		"color": ["green", "orange", "yellow", "blue"]
+	},
+	"numCardsPerSet" : 3,
+	"numCardsToPlay" : 9
+}

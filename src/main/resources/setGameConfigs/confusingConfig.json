@@ -1,0 +1,10 @@
+{
+	"dimensionValues": {
+		"A": ["A", "B", "C"],
+		"B": ["A", "B", "C"],
+		"C": ["A", "B", "C"],
+		"D": ["A", "B", "C"]
+	},
+	"numCardsPerSet" : 3,
+	"numCardsToPlay" : 81
+}

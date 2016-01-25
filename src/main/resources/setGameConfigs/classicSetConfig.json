@@ -1,0 +1,10 @@
+{
+	"dimensionValues": {
+		"color": ["red", "green", "purple"],
+		"shape": ["diamond", "oval", "squiggle"],
+		"shading": ["solid", "striped", "outlined"],
+		"number": ["1", "2", "3"]
+	},
+	"numCardsPerSet" : 3,
+	"numCardsToPlay" : 81
+}
