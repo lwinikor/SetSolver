@@ -1,0 +1,10 @@
+{
+	"dimensionValues": {
+		"color": ["red", "green", "purple"],
+		"Color": ["Red", "red", "RED"],
+		"COLOR": ["green", "GREEN", "grEen"],
+		"coloR": ["Purple", "PURPLE", "purple"]
+	},
+	"numCardsPerSet" : 3,
+	"numCardsToPlay" : 81
+}
